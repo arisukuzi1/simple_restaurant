@@ -10,6 +10,8 @@
     "dev": "npx nodemon index.js"
   },
   "dependencies": {
+    "bcrpyt": "^2.0.0",
+    "bcrypt": "^6.0.0",
     "cors": "^2.8.6",
     "dotenv": "^18.0.10",
     "pg": "^8.23.1",
