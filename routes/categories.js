@@ -2,19 +2,8 @@ const express = require("express");
 const { getAllCategories, storeCategory } = require("../controllers/categoryController");
 const router = express.Router();
 
-// routes
-// router.get("/", (req, res) => {
-//   res.json({
-//     message: "List of categories",
-//     data: [
-//       { id: 1, name: "Appetizers" },
-//       { id: 2, name: "Main Course" },
-//       { id: 3, name: "Desserts" },
-//       { id: 4, name: "Beverages" },
-//     ],
-//   });
-// });
 
+// get all categories
 router.get("/", getAllCategories);
 
 // router.post("/", (req, res) => {
